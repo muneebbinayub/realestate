@@ -1,0 +1,394 @@
+body{margin:0%;
+padding: 0%;
+box-sizing: border-box;
+overflow-x: hidden;
+bottom: 0;
+right: 0;}
+
+.one{position: relative;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: cursive;
+margin: -3px;
+}
+
+.one::before{content:"";
+position: absolute;
+z-index: -1;
+width: 100%;
+height: 62px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 52%, rgba(0,35,73,1) 74%);}
+
+/* ////////////////////Navigation//////////////////////////// */
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+position: relative;}
+
+.logo{display: flex;
+color: white;}
+
+.logo h3{font-family: cursive;
+animation: ani 6s linear forwards;
+letter-spacing: 1px;}
+
+@keyframes ani{
+    0%{text-shadow: 5px 5px 7px black;
+    transform: translateY(2px);}
+    50%{text-shadow: 5px 5px 7px black;
+        transform: translateY(2px);}
+    100%{text-shadow: 5px 5px 7px black;
+        transform: translateY(2px);}
+
+}
+
+
+.logo img{position: relative;
+    height: 51px;
+    border-radius: 23px;
+    margin: 0px 19px;
+    top: 3px;}
+
+.homein h1{font-family: 'Freckle Face', cursive;}
+
+
+.navigation ul{display: flex;}
+
+.navigation li{list-style: none;}
+
+.navigation li a{text-decoration: none;
+padding:0px 17px;
+color: white;}
+
+.navigation li a:hover{  background-color: darkgray;
+border-radius: 23px;
+color: white;
+padding:7px 9px}
+
+
+.btn {background-color: white;
+color: black;
+border-radius:23px;
+border:1px solid grey;
+padding: 8px 13px;}
+
+.btn:hover{ background-color: darkgray;
+border-radius: 23px;
+color: black;
+border:solid black 1px;}
+
+.logsign{margin: 0px 15px;
+}
+
+.navigation{font-family: 'Lato', sans-serif;}
+/* //////////////////////////////////////////Navigation Before///////////////////////// */
+
+.navigation::before{content:"";
+position:absolute;
+width:100%;
+height:100%;
+z-index: -1;
+opacity: 0.5;
+background-color: black;}
+
+#first::before{
+content:"";
+position:absolute;
+width:100%;
+height: 70vh;
+z-index: -1;
+background:url(/home.jpg) no-repeat center;
+opacity: 0.93;}
+
+
+/* ////////////////////////////home////////////////////////////////// */
+
+.homein {display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 70vh;
+color: white;}
+
+.homein h1{
+    font-size: 3.3rem;
+    margin: 7px;
+text-shadow:8px 8px 6px black;}
+
+.homein h2{
+    font-size: 2.1rem;
+    margin: -15px;
+    font-family: 'Pacifico', cursive;
+    text-shadow:4px 4px 6px black;}
+
+.homein p{font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+text-shadow:4px 3px 4px black;}
+    
+.homein button{    background-color: white;
+    color: black;
+    border-radius: 23px;
+    border: 1px solid grey;
+    padding: 11px 20px;
+}
+
+
+
+
+/* ................................gallery1............................ */
+
+.interior::before{content:"";
+position:absolute;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 52%, rgba(0,35,73,1) 74%);
+height: 560px;
+width: 100%;
+z-index: -2;}
+
+.interior{ color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;}
+
+.interior img{width: 250px;
+height: 250px;
+margin: 0px 8px;
+transition: 1s;}
+
+.interior img:hover{transform: scale(1.1);
+border-radius: 23px;}
+
+.interior h2{font-family: 'Dancing Script', cursive}
+/* ////////////////////////////////////////gallery exterior///////////////////////////////////////////// */
+
+.exterior::before{content:"";
+    position:absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 52%, rgba(0,35,73,1) 74%);
+    height: 560px;
+    width: 100%;
+    z-index: -2;}
+    
+    .exterior{ color: white;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;}
+    
+    .exterior img{width: 250px;
+    height: 250px;
+    margin: 0px 8px;
+    transition: 1s;}
+    
+    .exterior img:hover{transform: scale(1.1);
+    border-radius: 23px;}
+
+    .exterior h2{font-family: 'Dancing Script', cursive}
+
+    /* /////////////////////////////////////footer////////////////////////////////// */
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      background-color: grey;}
+      
+      .fa-facebook {
+        background: black;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: black;
+        color: white;
+      }
+      
+.fa-youtube {
+    background: black;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+
+  .socialmedia a{    position: relative;
+   top: 17px;}
+
+
+
+
+/* /////////////////////////////////////////////////////.projects//////////////////////////// */
+.same{width: 300px;
+    height: 300px;
+    /* border: black solid 2px; */
+    margin: 0px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;}
+    
+    
+    .search{display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 18px 0px;}
+    
+    .search::before{
+    
+        content: "";
+       background-color: white;
+        position:absolute;
+        width: 100%;
+        height: 329px;
+        z-index: -1;   
+    }
+    
+    .search a{text-decoration: none;
+    font-size: 25px;}
+    
+    .same img{margin-bottom: 4px;}
+    
+    .same p{padding:0px 16px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ///////////////////////////////footer::before//////////////////// */
+
+.footer{position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+  .footer::before{content: "";
+background-color:black;
+position:absolute;
+width: 100%;
+height: 114px;
+z-index: -1;
+margin-bottom: -9px;}
+.exterior{margin-bottom: 40px;}
+/* /////////////media//////////////////////////////////////////// */
+
+@media screen and (max-width:1088px) {
+ 
+
+    .extimg a img ,.intimg a img{width: 200px;
+        height: 200px;
+        }
+         
+        
+}
+
+@media screen and (max-width:882px){
+
+    body{margin: 0;
+    padding: 0;}
+
+    .extimg a img ,.intimg a img{width: 160px;
+        height: 160px;
+        }
+    
+
+}
+
+
+
+@media screen and (max-width:718px){
+
+    .exterior::before {
+        height: 635px;
+}
+    .interior::before {
+        height: 635px;
+}
+
+.btn{padding: 8px 3px;
+background-color: white;
+}
+
+@media screen and (max-width:577px){
+
+    .exterior::before {
+        height: 1060px;
+}
+    .interior::before {
+        height: 935px;
+}
+
+.navigation{display: flex;
+flex-direction: column;}
+.intimg, .extimg{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.same img {
+    margin-bottom: 4px;
+    height: 96px;
+
+}
+
+.one{display: none;}
+
+.homein{height: 62vh;}
+
+.intimg img, .extimg img{margin: 5px;}
+
+.logsign button{ display: none!important;}
+
+}
+
+
+
+@media screen and (max-width:394px){
+
+    .fa {
+        padding: 6px;
+        margin: 14px 2px;
+    
+}
+
+.same p {
+    padding: 0px 16px;
+    font-size: 74%;
+
+}
+
+.logsign button{ display: none!important;}
+
+}
