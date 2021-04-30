@@ -102,7 +102,7 @@ position:absolute;
 width:100%;
 height: 70vh;
 z-index: -1;
-background:url('/realestate/home.jpg') no-repeat center;
+background:url('./realestate/home.jpg') no-repeat center;
 opacity: 0.93;}
 
 
